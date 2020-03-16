@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_weight="3"
+    android:layout_height="75dp">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tx_datejson"
+        style="@style/viewParent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:text="DATE"
+        android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tx_checkedInjson"
+            style="@style/viewParent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tx_datejson"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:text="CHECK IN"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/tx_checkedOutjson"
+            style="@style/viewParent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tx_checkedInjson"
+            android:text="CHECK OUT"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="15dp" />
+
+</LinearLayout>
